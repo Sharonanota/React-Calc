@@ -9,7 +9,7 @@ export const Screen = ({ value }) => {
   
   
   return (
-    <Textfit className="screen" mode="single" max={70}>
+    <Textfit className="screen" mode="single" max={60}>
       {value}
     </Textfit>
   );
